@@ -1,0 +1,46 @@
+{
+    "name": "datlv/laravel-authority",
+    "description": "Laravel Authorization Package",
+    "keywords": [
+        "datlv",
+        "laravel-authority"
+    ],
+    "homepage": "https://github.com/datlv/laravel-authority",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Datlv",
+            "email": "datle2011@gmail.com",
+            "homepage": "http://datlv.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "require-dev": {
+        "fzaninotto/faker": "~1.4",
+        "mockery/mockery": "0.9.*",
+        "phpunit/phpunit": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "datlv\\Authority\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "datlv\\Authority\\Test\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "datlv\\Authority\\ServiceProvider"
+            ]
+        }
+    }
+}
