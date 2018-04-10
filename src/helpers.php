@@ -1,7 +1,7 @@
 <?php
 if (!function_exists('authority')) {
     /**
-     * @return \Minhbang\Authority\Manager
+     * @return \Datlv\Authority\Manager
      */
     function authority()
     {
@@ -16,7 +16,7 @@ if (!function_exists('user_is')) {
      * @param bool $all
      * @param bool $exact
      *
-     * @return \Minhbang\Authority\Manager
+     * @return \Datlv\Authority\Manager
      */
     function user_is($role, $all = false, $exact = false)
     {

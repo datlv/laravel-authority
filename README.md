@@ -9,11 +9,11 @@
 	"repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/minhbang/laravel-authority"
+            "url": "https://github.com/datlv/laravel-authority"
         }
     ],
     "require": {
-        "minhbang/laravel-authority": "dev-master"
+        "Datlv/laravel-authority": "dev-master"
     }
 ```
 ``` bash

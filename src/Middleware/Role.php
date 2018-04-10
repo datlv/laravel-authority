@@ -1,5 +1,5 @@
 <?php
-namespace Minhbang\Authority\Middleware;
+namespace Datlv\Authority\Middleware;
 
 use Closure;
 
@@ -10,7 +10,7 @@ use Closure;
  * - 'middleware' => 'role:sys.admin,all'
  * - 'middleware' => 'role:sys.*,all,exact'
  *
- * @package Minhbang\User\Middleware
+ * @package Datlv\User\Middleware
  */
 class Role
 {
