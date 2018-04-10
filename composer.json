@@ -3,7 +3,8 @@
     "description": "Laravel Authorization Package",
     "keywords": [
         "datlv",
-        "laravel-authority"
+        "laravel",
+        "authority"
     ],
     "homepage": "https://github.com/datlv/laravel-authority",
     "license": "MIT",
